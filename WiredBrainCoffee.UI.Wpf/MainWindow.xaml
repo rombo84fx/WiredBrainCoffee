@@ -11,5 +11,7 @@
         <TextBox x:Name="CappuccinoCounterTextBox" IsReadOnly="True" Margin="5" />
         <Button Content="Make cappuccino" Click="MakeCappuccinoButton_OnClick" HorizontalAlignment="Left"
                 Width="200" Margin="5" />
+        <Button Content="Show stored state" Click="ShowStoredStateButton_OnClick" HorizontalAlignment="Left"
+                Width="200" Margin="5" />
     </StackPanel>
 </Window>
