@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Wired Brain Coffee</Authors>
+    <Company>Wired Brain Coffee</Company>
+    <Description>use this package to simulate a coffee machine</Description>
+    <PackageIconUrl>https://www.thomasclaudiushuber.com/wiredbraincoffee.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
